@@ -190,5 +190,6 @@ if( $back_to_top_class == 'hide' ){
 <!-- wp_footer() -->
 <?php wp_footer(); ?>
 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>
