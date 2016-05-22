@@ -32,7 +32,7 @@ $shaw-purple: #ec008c;
 // $cheryl-gray: #545455;
 
 @import "bourbon/bourbon";
-// @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Vollkorn:400,700italic,400italic,700);
 // @import url(https://fonts.googleapis.com/css?family=Bevan);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,300,200,100);
@@ -47,8 +47,13 @@ $shaw-purple: #ec008c;
 
 @import "bootstrap-sass/assets/stylesheets/bootstrap";
 
+html {
+	// margin-top: 20rem;
+}
+
 body {
 	font-family: 'Raleway', sans-serif;
+	// margin-top: -10rem;
 	// display: none;
 }
 
@@ -68,17 +73,21 @@ body {
 
 	background-color: lighten( black, 0% );
 	color: white;
-	// min-height: 500px;
+	// position: fixed;
+	// width: 100%;
+	// margin-bottom: 30rem;
+
+
 
 	.call-out-content {
 
+		// position: fixed;
 
 		.logo-holder {
 	
-			position: relative;
-
 			.logo {
-				position: fixed;
+
+				width: 50%;
 
 				@media ( max-width: 991px ) {
 					text-align: center;
@@ -91,11 +100,22 @@ body {
 		}
 		.call-out-text {
 			// float: right;
-			.top-bar-menu {
-				border: 1px solid red;
-				
+			#top-bar-menu {
+				// border: 1px solid red;
+				padding-top: 3rem;
+
+				ul {
+					li {
+						display: inline-block;
+					}
+				}
+
 				a {
 					color: white;
+
+					font-size: 1.5rem;
+					font-weight: 600;
+					padding-right: 1rem;
 
 					@media ( max-width: 1150px ) {
 						font-size: 1.5rem;
@@ -103,14 +123,28 @@ body {
 					@media ( max-width: 991px ) {
 						font-size: 2rem;
 						margin-top: 5rem;
-					}									
+					}	
+
+					i {
+						color: white;
+					}
+
+					&:hover {
+						color: lighten( $tiana-primary, 15% );
+						font-weight: 900;
+
+						i {
+							color: lighten( $tiana-primary, 15% );
+						}						
+					}								
 				}
 			}
 		}
 
 		.call-out-button {
 
-			margin-top: 2rem;
+			margin-top: 4rem;
+
 
 			a {
 				color: white;
@@ -121,7 +155,7 @@ body {
 
 #top-block {
 
-	margin-top: -3rem;
+	// margin-top: 10rem;
 
 	@media ( max-width: 991px ) {
 		margin-top: -10rem;
@@ -139,6 +173,7 @@ body {
 
 #block-2 {
 
+	// margin-top: 25rem;
 
 	padding: 0 !important;
 
@@ -152,54 +187,32 @@ body {
 			padding-top: 5rem !important;
 			padding-bottom: 2rem;
 			// border: 1rem solid red;			
-			@include linear-gradient( to left, rgba( $tiana-teal, .5 ), rgba( white, .8 )  ) ;
+			@include linear-gradient( to left, rgba( $tiana-teal, .3 ), rgba( white, .8 )  ) ;
 			margin: 0 !important;
 
-
-			h2 {
-				font-family: 'Raleway', sans-serif;
-				font-weight: 900;
-				font-size: 2.9rem;
-				color: darken( $tiana-primary, 10% );
-			}
-
-			h3 {
-				font-family: 'Raleway', sans-serif;
-				font-weight: 700;
-				font-size: 2.5rem;
-				color: lighten( black, 20% );
-			}
-			h4 {
-				font-family: 'Raleway', sans-serif;
-				font-weight: 500;
-				font-size: 1.8rem;
-				color: lighten( black, 20% );
-			}			
 		}
 	}
 
 }
 
-#got-web {
+#block-4 {
 
-	.text-block {
-		background-color: rgba( black, .5 );
-		padding: 5rem;
-	}
-	h2 {
-		font-family: 'Raleway', sans-serif;
-		font-weight: 900;	
-	}
-	h3 {
-		font-family: 'Raleway', sans-serif;
-		font-weight: 600;
-	}
-	h1 {
-		font-size: 5rem;
-		color: $tiana-red;
-		font-weight: 900;
+	padding: 0 !important;
+
+	.section_wrapper {
+		max-width: 100% !important;
+		padding: 0 !important;
+		margin: 0 !important;
+		.column.mcb-column.one.column_image {
+			margin-right: 0px !important;
+
+			.image_wrapper {
+
+			}
+		}
 	}
 }
+
 
 #block-5 {
 

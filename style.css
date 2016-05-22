@@ -15,6 +15,7 @@ Version: 		1.6
  * Colors
  *
  */
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Vollkorn:400,700italic,400italic,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,300,200,100);
 @import url(https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic);
@@ -5840,39 +5841,49 @@ body {
 .header-call-out {
   background-color: black;
   color: white; }
-  .header-call-out .call-out-content .logo-holder {
-    position: relative; }
-    .header-call-out .call-out-content .logo-holder .logo {
-      position: fixed; }
-      @media (max-width: 991px) {
-        .header-call-out .call-out-content .logo-holder .logo {
-          text-align: center;
-          margin: 0 auto;
-          display: block;
-          position: relative; } }
-  .header-call-out .call-out-content .call-out-text h3 {
-    color: white; }
-    @media (max-width: 1150px) {
-      .header-call-out .call-out-content .call-out-text h3 {
-        font-size: 1.5rem; } }
+  .header-call-out .call-out-content .logo-holder .logo {
+    width: 50%; }
     @media (max-width: 991px) {
-      .header-call-out .call-out-content .call-out-text h3 {
-        font-size: 2rem;
-        margin-top: 5rem; } }
+      .header-call-out .call-out-content .logo-holder .logo {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        position: relative; } }
+  .header-call-out .call-out-content .call-out-text #top-bar-menu {
+    padding-top: 3rem; }
+    .header-call-out .call-out-content .call-out-text #top-bar-menu ul li {
+      display: inline-block; }
+    .header-call-out .call-out-content .call-out-text #top-bar-menu a {
+      color: white;
+      font-size: 1.5rem;
+      font-weight: 600;
+      padding-right: 1rem; }
+      @media (max-width: 1150px) {
+        .header-call-out .call-out-content .call-out-text #top-bar-menu a {
+          font-size: 1.5rem; } }
+      @media (max-width: 991px) {
+        .header-call-out .call-out-content .call-out-text #top-bar-menu a {
+          font-size: 2rem;
+          margin-top: 5rem; } }
+      .header-call-out .call-out-content .call-out-text #top-bar-menu a i {
+        color: white; }
+      .header-call-out .call-out-content .call-out-text #top-bar-menu a:hover {
+        color: #23eee9;
+        font-weight: 900; }
+        .header-call-out .call-out-content .call-out-text #top-bar-menu a:hover i {
+          color: #23eee9; }
   .header-call-out .call-out-content .call-out-button {
-    margin-top: 2rem; }
+    margin-top: 4rem; }
     .header-call-out .call-out-content .call-out-button a {
       color: white; }
 
-#top-block {
-  margin-top: -3rem; }
-  @media (max-width: 991px) {
-    #top-block {
-      margin-top: -10rem; } }
-  #top-block .count-down-box .number-wrapper {
-    font-size: 3rem !important;
-    color: #50dbd5 !important;
-    margin-bottom: -2rem !important; }
+@media (max-width: 991px) {
+  #top-block {
+    margin-top: -10rem; } }
+#top-block .count-down-box .number-wrapper {
+  font-size: 3rem !important;
+  color: #50dbd5 !important;
+  margin-bottom: -2rem !important; }
 
 #block-2 {
   padding: 0 !important; }
@@ -5882,39 +5893,19 @@ body {
       padding-left: 2rem !important;
       padding-top: 5rem !important;
       padding-bottom: 2rem;
-      background-color: rgba(38, 185, 178, 0.5);
-      background-image: -webkit-linear-gradient(right, rgba(38, 185, 178, 0.5), rgba(255, 255, 255, 0.8));
-      background-image: linear-gradient(to left,rgba(38, 185, 178, 0.5), rgba(255, 255, 255, 0.8));
+      background-color: rgba(38, 185, 178, 0.3);
+      background-image: -webkit-linear-gradient(right, rgba(38, 185, 178, 0.3), rgba(255, 255, 255, 0.8));
+      background-image: linear-gradient(to left,rgba(38, 185, 178, 0.3), rgba(255, 255, 255, 0.8));
       margin: 0 !important; }
-      #block-2 .section_wrapper .section-2-wrapper h2 {
-        font-family: 'Raleway', sans-serif;
-        font-weight: 900;
-        font-size: 2.9rem;
-        color: #0a8885; }
-      #block-2 .section_wrapper .section-2-wrapper h3 {
-        font-family: 'Raleway', sans-serif;
-        font-weight: 700;
-        font-size: 2.5rem;
-        color: #333333; }
-      #block-2 .section_wrapper .section-2-wrapper h4 {
-        font-family: 'Raleway', sans-serif;
-        font-weight: 500;
-        font-size: 1.8rem;
-        color: #333333; }
 
-#got-web .text-block {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 5rem; }
-#got-web h2 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 900; }
-#got-web h3 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600; }
-#got-web h1 {
-  font-size: 5rem;
-  color: #eb005f;
-  font-weight: 900; }
+#block-4 {
+  padding: 0 !important; }
+  #block-4 .section_wrapper {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important; }
+    #block-4 .section_wrapper .column.mcb-column.one.column_image {
+      margin-right: 0px !important; }
 
 #block-5 {
   padding: 0 !important; }

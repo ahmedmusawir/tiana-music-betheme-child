@@ -74,23 +74,26 @@
 	<article class="call-out-content container-fluid">
 		
 		<div class="logo-holder col-md-3 col-sm-12 col-xs-12">
-			<img class="logo img-responsive" src="http://tiana-music.local/wp-content/uploads/2016/05/Screen-Shot-2016-05-21-at-2.33.27-PM.png" alt="">
+			<img class="logo img-responsive" src="/wp-content/uploads/2016/05/MarketMyMusicLogo-350.png" alt="">
 		</div>
 
-		<div class="call-out-text col-md-7 col-sm-12 col-xs-12 text-center">
+		<div class="call-out-text col-md-6 col-sm-12 col-xs-12 text-center">
 
 			<h3 id="top-bar-menu">
-
-				<a rel='m_PageScroll2id' href="#block-2" title=""><i class="fa fa-music" aria-hidden="true"></i>MARKETING YOUR MUSIC</a>
-				<a rel='m_PageScroll2id' href="#block-3" title=""><i class="fa fa-music" aria-hidden="true"></i>WHY JOIN </a>
-				<a rel='m_PageScroll2id' href="#block-4" title=""><i class="fa fa-music" aria-hidden="true"></i>YOUR MARKETING PLAN</a>
-				<a rel='m_PageScroll2id' href="#block-10" title=""><i class="fa fa-music" aria-hidden="true"></i>ABOUT TIANA</a>
+				<ul>
+					
+					<li><a rel='m_PageScroll2id' href="#block-2" title=""><i class="fa fa-music" aria-hidden="true"></i> MARKETING YOUR MUSIC</a></li>
+					<li><a rel='m_PageScroll2id' href="#block-3" title=""><i class="fa fa-users" aria-hidden="true"></i> WHY JOIN </a></li>
+					<li><a rel='m_PageScroll2id' href="#block-4" title=""><i class="fa fa-line-chart" aria-hidden="true"></i> YOUR MARKETING PLAN</a></li>
+					<li><a rel='m_PageScroll2id' href="#block-10" title=""><i class="fa fa-pagelines " aria-hidden="true"></i> ABOUT TIANA</a></li>
+				
+				</ul>
 			
 			</h3>
 			
 		</div>
 
-		<div class="call-out-button col-md-2 col-sm-12 col-xs-12">
+		<div class="call-out-button col-md-3 col-sm-12 col-xs-12">
 			<a rel='m_PageScroll2id' class="btn btn-primary btn-block btn-lg" href="#block-6" title="">ENROLL NOW</a>
 		</div>
 	</article>
