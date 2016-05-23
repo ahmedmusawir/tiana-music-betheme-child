@@ -58,103 +58,157 @@ body {
 	// display: none;
 }
 
-#Header {
+/**
+ *
+ * Dropdown Bootstrap Modal
+ *
+ */
+
+#myModal {
 	// border: 1rem solid red;
+	// #25aea6
+	.modal-header {
+		padding: 0 !important;
+		border-bottom: 0;
+	}
+	.modal-content {
+	   
+	   @include linear-gradient( to bottom, rgba( #25aea6, 1 ), rgba( white, 1 )  ) ;
+
+	}
+	#infusion-form {
+		.infusion-field {
+			width: 100% !important;
+			// border: 1rem solid red;
+			.infusion-field-input-container {
+				width: 100% !important;
+
+			}
+		}
+	}
 }
 
 
 /**
  *
- * Logo Style
+ * For Old Header
  *
  */
 
+#Header_wrapper {
 
-.header-call-out {
-
-	background-color: lighten( black, 0% );
-	// color: white;
-
-
-	// position: fixed;
-	// width: 100%;
-	// margin-bottom: 30rem;
+	// height: 200px;
+	position: relative;
 
 
-
-	.call-out-content {
-
+	#Header {
+		// border: 1rem solid red;
 		// position: fixed;
+		// width: 100%;
+		/**
+		 *
+		 * Logo Style
+		 *
+		 */
 
-		.logo-holder {
-	
-			.logo {
 
-				width: 50%;
+		.header-call-out {
 
-				@media ( max-width: 991px ) {
-					text-align: center;
-					margin: 0 auto;
-					display: block;
-					position: relative;
-				}							
+			// background-color: lighten( black, 0% );
+			background-image: url("/wp-content/uploads/2016/05/snowflake-3.png");
+			// color: white;
 
-			}
-		}
-		.call-out-text {
-			// float: right;
-			#top-bar-menu {
-				// border: 1px solid red;
-				padding-top: 3rem;
 
-				ul {
-					li {
-						display: inline-block;
+			// width: 100%;
+			// margin-bottom: 30rem;
+
+
+
+			.call-out-content {
+
+
+				.logo-holder {
+			// position: relative;
+			
+					.logo {
+				// position: fixed;
+
+						width: 80%;
+
+						@media ( max-width: 991px ) {
+							text-align: center;
+							margin: 0 auto;
+							display: block;
+							position: relative;
+							width: 50%;
+						}
+						@media ( min-width: 1500px ) {
+							width: 50%;
+						}							
+
+					}
+				}
+				.call-out-text {
+					// float: right;
+					// position: fixed;
+					#top-bar-menu {
+						// border: 1px solid red;
+						padding-top: 3rem;
+
+						ul {
+							li {
+								display: inline-block;
+							}
+						}
+
+						a {
+							color: white;
+
+							font-size: 1.5rem;
+							font-weight: 600;
+							padding-right: 1rem;
+
+							@media ( max-width: 1150px ) {
+								font-size: 1.5rem;
+							}
+							@media ( max-width: 991px ) {
+								font-size: 2rem;
+								margin-top: 5rem;
+							}
+
+					
+							i {
+								color: white;
+							}
+
+							&:hover {
+								color: lighten( $tiana-primary, 15% );
+								font-weight: 600;
+
+								i {
+									color: lighten( $tiana-primary, 15% );
+								}						
+							}								
+						}
 					}
 				}
 
-				a {
-					color: white;
+				.call-out-button {
 
-					font-size: 1.5rem;
-					font-weight: 600;
-					padding-right: 1rem;
+					margin-top: 4rem;
 
-					@media ( max-width: 1150px ) {
-						font-size: 1.5rem;
-					}
-					@media ( max-width: 991px ) {
-						font-size: 2rem;
-						margin-top: 5rem;
-					}	
 
-					i {
+					a {
 						color: white;
 					}
-
-					&:hover {
-						color: lighten( $tiana-primary, 15% );
-						font-weight: 900;
-
-						i {
-							color: lighten( $tiana-primary, 15% );
-						}						
-					}								
 				}
 			}
 		}
-
-		.call-out-button {
-
-			margin-top: 4rem;
-
-
-			a {
-				color: white;
-			}
-		}
-	}
+		
+	}	
 }
+
+
 
 #top-block {
 
@@ -277,6 +331,12 @@ body {
 					border: 0;
 					font-family: 'Open Sans', sans-serif;
 					font-weight: 700;
+					@media ( max-width: 710px ) {
+
+						font-size: 200%;
+						line-height: 100%;
+					}
+
 				}
 
 				.btn {
@@ -284,17 +344,26 @@ body {
 					margin: 0 auto;
 					clear: both;
 					display: block;
-					padding: 5rem;
+					padding: 5%;
 					// padding-left: 10rem;
 					// padding-right: 10rem;
-					width: 80%;
-					font-size: 7rem;
+					width: 70%;
+					font-size: 350%;
+					// font-size: 7rem;
 					color: black;
 					background-color: darken( yellow, 7% );
 					border-radius: 30px;
 					font-family: 'Open Sans', sans-serif;
 					font-weight: 700;
 
+					@media ( max-width: 580px ) {
+
+						width: 100%;
+					}
+					@media ( max-width: 420px ) {
+
+						font-size: 200%;
+					}
 					&:hover {
 						background-color: darken( yellow, 10% );
 

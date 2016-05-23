@@ -5835,46 +5835,75 @@ body {
 
 /**
  *
- * Logo Style
+ * Dropdown Bootstrap Modal
  *
  */
-.header-call-out {
-  background-color: black; }
-  .header-call-out .call-out-content .logo-holder .logo {
-    width: 50%; }
-    @media (max-width: 991px) {
-      .header-call-out .call-out-content .logo-holder .logo {
-        text-align: center;
-        margin: 0 auto;
-        display: block;
-        position: relative; } }
-  .header-call-out .call-out-content .call-out-text #top-bar-menu {
-    padding-top: 3rem; }
-    .header-call-out .call-out-content .call-out-text #top-bar-menu ul li {
-      display: inline-block; }
-    .header-call-out .call-out-content .call-out-text #top-bar-menu a {
-      color: white;
-      font-size: 1.5rem;
-      font-weight: 600;
-      padding-right: 1rem; }
-      @media (max-width: 1150px) {
-        .header-call-out .call-out-content .call-out-text #top-bar-menu a {
-          font-size: 1.5rem; } }
-      @media (max-width: 991px) {
-        .header-call-out .call-out-content .call-out-text #top-bar-menu a {
-          font-size: 2rem;
-          margin-top: 5rem; } }
-      .header-call-out .call-out-content .call-out-text #top-bar-menu a i {
-        color: white; }
-      .header-call-out .call-out-content .call-out-text #top-bar-menu a:hover {
-        color: #23eee9;
-        font-weight: 900; }
-        .header-call-out .call-out-content .call-out-text #top-bar-menu a:hover i {
-          color: #23eee9; }
-  .header-call-out .call-out-content .call-out-button {
-    margin-top: 4rem; }
-    .header-call-out .call-out-content .call-out-button a {
-      color: white; }
+#myModal .modal-header {
+  padding: 0 !important;
+  border-bottom: 0; }
+#myModal .modal-content {
+  background-color: #25aea6;
+  background-image: -webkit-linear-gradient(top, #25aea6, white);
+  background-image: linear-gradient(to bottom,#25aea6, white); }
+#myModal #infusion-form .infusion-field {
+  width: 100% !important; }
+  #myModal #infusion-form .infusion-field .infusion-field-input-container {
+    width: 100% !important; }
+
+/**
+ *
+ * For Old Header
+ *
+ */
+#Header_wrapper {
+  position: relative; }
+  #Header_wrapper #Header {
+    /**
+     *
+     * Logo Style
+     *
+     */ }
+    #Header_wrapper #Header .header-call-out {
+      background-image: url("/wp-content/uploads/2016/05/snowflake-3.png"); }
+      #Header_wrapper #Header .header-call-out .call-out-content .logo-holder .logo {
+        width: 80%; }
+        @media (max-width: 991px) {
+          #Header_wrapper #Header .header-call-out .call-out-content .logo-holder .logo {
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+            position: relative;
+            width: 50%; } }
+        @media (min-width: 1500px) {
+          #Header_wrapper #Header .header-call-out .call-out-content .logo-holder .logo {
+            width: 50%; } }
+      #Header_wrapper #Header .header-call-out .call-out-content .call-out-text #top-bar-menu {
+        padding-top: 3rem; }
+        #Header_wrapper #Header .header-call-out .call-out-content .call-out-text #top-bar-menu ul li {
+          display: inline-block; }
+        #Header_wrapper #Header .header-call-out .call-out-content .call-out-text #top-bar-menu a {
+          color: white;
+          font-size: 1.5rem;
+          font-weight: 600;
+          padding-right: 1rem; }
+          @media (max-width: 1150px) {
+            #Header_wrapper #Header .header-call-out .call-out-content .call-out-text #top-bar-menu a {
+              font-size: 1.5rem; } }
+          @media (max-width: 991px) {
+            #Header_wrapper #Header .header-call-out .call-out-content .call-out-text #top-bar-menu a {
+              font-size: 2rem;
+              margin-top: 5rem; } }
+          #Header_wrapper #Header .header-call-out .call-out-content .call-out-text #top-bar-menu a i {
+            color: white; }
+          #Header_wrapper #Header .header-call-out .call-out-content .call-out-text #top-bar-menu a:hover {
+            color: #23eee9;
+            font-weight: 600; }
+            #Header_wrapper #Header .header-call-out .call-out-content .call-out-text #top-bar-menu a:hover i {
+              color: #23eee9; }
+      #Header_wrapper #Header .header-call-out .call-out-content .call-out-button {
+        margin-top: 4rem; }
+        #Header_wrapper #Header .header-call-out .call-out-content .call-out-button a {
+          color: white; }
 
 @media (max-width: 991px) {
   #top-block {
@@ -5937,19 +5966,29 @@ body {
         border: 0;
         font-family: 'Open Sans', sans-serif;
         font-weight: 700; }
+        @media (max-width: 710px) {
+          #block-6 .the-form fieldset legend {
+            font-size: 200%;
+            line-height: 100%; } }
       #block-6 .the-form fieldset .btn {
         text-align: center;
         margin: 0 auto;
         clear: both;
         display: block;
-        padding: 5rem;
-        width: 80%;
-        font-size: 7rem;
+        padding: 5%;
+        width: 70%;
+        font-size: 350%;
         color: black;
         background-color: #dbdb00;
         border-radius: 30px;
         font-family: 'Open Sans', sans-serif;
         font-weight: 700; }
+        @media (max-width: 580px) {
+          #block-6 .the-form fieldset .btn {
+            width: 100%; } }
+        @media (max-width: 420px) {
+          #block-6 .the-form fieldset .btn {
+            font-size: 200%; } }
         #block-6 .the-form fieldset .btn:hover {
           background-color: #cccc00; }
   #block-6 .section_wrapper {

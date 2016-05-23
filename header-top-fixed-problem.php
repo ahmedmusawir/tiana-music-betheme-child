@@ -113,59 +113,50 @@
 
 	<!-- Modal -->
 	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-		  <div class="modal-dialog" role="document">
-			    <div class="modal-content">
-			      <div class="modal-header">
-			        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> -->
-			        <!-- <h4 class="modal-title" id="myModalLabel">ENROLL NOW!</h4> -->
-			        <img class="img-responsive" src="/wp-content/uploads/2016/05/modal-top.jpg" alt="">
-			      </div>
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">ENROLL NOW!</h4>
+	      </div>
+	      <div class="modal-body">
 
-			      <div class="modal-body clearfix">
 
-					<article class="col-md-6 col-sm-12 col-xs-12 col-md-push-6 col-lg-push-6">
-						<img class="img-responsive" src="/wp-content/uploads/2016/05/modal-left-img.png" alt="">
-					</article>	
-					
-					<article class="col-md-6 col-sm-12 col-xs-12 col-md-pull-6 col-lg-pull-6">
-
-						<form id="infusion-form" accept-charset="UTF-8" action="https://rp172.infusionsoft.com/app/form/process/b58c70dd7bb6fe7bb5af3a863c17ec55" class="infusion-form form" method="POST">
-						   <input name="inf_form_xid" type="hidden" value="b58c70dd7bb6fe7bb5af3a863c17ec55" />
-						   <input name="inf_form_name" type="hidden" value="Sign Up For Inspirational Workbook (TG)" />
-						   <input name="infusionsoft_version" type="hidden" value="1.53.0.62" />
-						   <div class="infusion-field">
-						      <label for="inf_field_FirstName">First Name *</label>
-						      <input class="infusion-field-input-container form-control" id="inf_field_FirstName" name="inf_field_FirstName" type="text" />
-						   </div>
-						   <div class="infusion-field">
-						      <label for="inf_field_Email">Valid Email *</label>
-						      <input class="infusion-field-input-container form-control" id="inf_field_Email" name="inf_field_Email" type="text" />
-						   </div>
-						   <div class="infusion-field">
-						      <span class="infusion-option">
-						      <input checked="checked" id="inf_option_SignUpOnMyInspireList" name="inf_option_SignUpOnMyInspireList" type="checkbox" value="223" />
-						      <label for="inf_option_SignUpOnMyInspireList">Sign Up On My Inspire List</label>
-						      </span>
-						   </div>
-						   <div class="infusion-submit">
-						      <input class="btn btn-danger btn-block" type="submit" value="Sign Up!" />
-						   </div>
-						</form>
-						<script type="text/javascript" src="https://rp172.infusionsoft.com/app/webTracking/getTrackingCode?trackingId=6de7b0bc66d40391a6653e39e4657709"></script>
-						
-					</article>	
+			<form accept-charset="UTF-8" action="https://rp172.infusionsoft.com/app/form/process/b58c70dd7bb6fe7bb5af3a863c17ec55" class="infusion-form" method="POST">
+			   <input name="inf_form_xid" type="hidden" value="b58c70dd7bb6fe7bb5af3a863c17ec55" />
+			   <input name="inf_form_name" type="hidden" value="Sign Up For Inspirational Workbook (TG)" />
+			   <input name="infusionsoft_version" type="hidden" value="1.53.0.62" />
+			   <div class="infusion-field">
+			      <label for="inf_field_FirstName">First Name *</label>
+			      <input class="infusion-field-input-container" id="inf_field_FirstName" name="inf_field_FirstName" type="text" />
+			   </div>
+			   <div class="infusion-field">
+			      <label for="inf_field_Email">Valid Email *</label>
+			      <input class="infusion-field-input-container" id="inf_field_Email" name="inf_field_Email" type="text" />
+			   </div>
+			   <div class="infusion-field">
+			      <span class="infusion-option">
+			      <input checked="checked" id="inf_option_SignUpOnMyInspireList" name="inf_option_SignUpOnMyInspireList" type="checkbox" value="223" />
+			      <label for="inf_option_SignUpOnMyInspireList">Sign Up On My Inspire List</label>
+			      </span>
+			   </div>
+			   <div class="infusion-submit">
+			      <input type="submit" value="Sign Up!" />
+			   </div>
+			</form>
+			<script type="text/javascript" src="https://rp172.infusionsoft.com/app/webTracking/getTrackingCode?trackingId=6de7b0bc66d40391a6653e39e4657709"></script>
 
 
 
-			      </div>
-			      <div class="modal-footer">
-			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-			      </div>
-			    </div> <!-- modal-body -->
-			  </div>
-		</div>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+	      </div>
+	    </div>
+	  </div>
 	</div>
+
 </section>
 
 		<?php do_action( 'mfn_hook_content_before' ); 
