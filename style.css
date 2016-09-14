@@ -4,7 +4,7 @@ Theme Name: 	Tiana Music Theme
 Theme URI: 		http://www.htmlfivedev.com
 Author: 		Ahmed Rahat Musawir
 Author URI: 	http://www.htmlfivedev.com
-Description:	A Custom Theme for Shy Miah London (Owner: Cheryl Shaw)
+Description:	A Custom Theme for TianaGustafson.com
 Template:		betheme
 Version: 		1.6
 */
@@ -5838,13 +5838,21 @@ body {
  * Dropdown Bootstrap Modal
  *
  */
+#myModal h1 {
+  color: #26b9b2 !important;
+  font-weight: 600; }
 #myModal .modal-header {
-  padding: 0 !important;
+  padding-top: 3rem;
   border-bottom: 0; }
+  #myModal .modal-header h4 {
+    color: #26b9b2 !important;
+    font-weight: 500; }
 #myModal .modal-content {
-  background-color: #25aea6;
-  background-image: -webkit-linear-gradient(top, #25aea6, white);
-  background-image: linear-gradient(to bottom,#25aea6, white); }
+  text-align: center; }
+  #myModal .modal-content .modal-body a img {
+    width: 60%; }
+#myModal .modal-footer {
+  text-align: center; }
 #myModal #infusion-form .infusion-field {
   width: 100% !important; }
   #myModal #infusion-form .infusion-field .infusion-field-input-container {
@@ -5907,7 +5915,8 @@ body {
 
 @media (max-width: 991px) {
   #top-block {
-    margin-top: -10rem; } }
+    margin-top: -10rem;
+    background: url("/wp-content/uploads/2016/05/header-bg.jpg") !important; } }
 @media (min-width: 1300px) {
   #top-block {
     margin-top: -10rem; } }
@@ -5930,6 +5939,53 @@ body {
       background-image: -webkit-linear-gradient(right, rgba(38, 185, 178, 0.3), rgba(255, 255, 255, 0.8));
       background-image: linear-gradient(to left,rgba(38, 185, 178, 0.3), rgba(255, 255, 255, 0.8));
       margin: 0 !important; }
+
+#block-2-mobile {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important; }
+  #block-2-mobile h3 {
+    font-size: 2.5rem;
+    color: black;
+    line-height: 2.5rem; }
+  #block-2-mobile h4 {
+    font-size: 2rem;
+    color: black;
+    line-height: 2.5rem; }
+
+@media (max-width: 850px) {
+  #block-3 {
+    background: url("/wp-content/uploads/2015/04/block-3-bg.jpg") !important; } }
+
+#block-3-mobile .content {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1rem; }
+  #block-3-mobile .content h1 {
+    font-size: 3rem;
+    line-height: 3rem; }
+  #block-3-mobile .content h2 {
+    font-size: 2.5rem;
+    line-height: 2.5rem; }
+  #block-3-mobile .content h4 {
+    font-size: 1.8rem;
+    line-height: 1.8rem; }
+
+#vip .special {
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+  #vip .special h1 {
+    text-align: center;
+    color: #26b9b2;
+    font-size: 4.5rem;
+    line-height: 4.5rem; }
+    #vip .special h1 small {
+      color: #9a9a9a;
+      font-size: 2rem; }
+  #vip .special ul {
+    padding-top: 3rem; }
+    #vip .special ul li {
+      list-style: none;
+      color: #26b9b2;
+      font-size: 2.2rem; }
 
 #block-4 {
   padding: 0 !important; }
@@ -5962,7 +6018,9 @@ body {
         padding-left: 4rem;
         padding-right: 4rem;
         font-size: 4rem;
+        line-height: 4rem;
         text-align: center;
+        text-transform: uppercase;
         border: 0;
         font-family: 'Open Sans', sans-serif;
         font-weight: 700; }
@@ -6018,6 +6076,10 @@ body {
 
 #block-9 {
   padding: 0 !important; }
+  #block-9 .video-block h2 {
+    font-weight: 600; }
+  #block-9 .video-block h4 {
+    font-weight: 600; }
   #block-9 .section_wrapper {
     max-width: 100% !important;
     padding: 0 !important;
@@ -6061,13 +6123,49 @@ body {
     #block-13 .section_wrapper .column.mcb-column.one.column_image {
       margin-right: 0px !important; }
 
-#block-14 {
-  padding: 0 !important; }
-  #block-14 .section_wrapper {
-    max-width: 100% !important;
-    padding: 0 !important;
-    margin: 0 !important; }
-    #block-14 .section_wrapper .column.mcb-column.one.column_image {
-      margin-right: 0px !important; }
+#block-15 .the-form {
+  margin-top: 5rem;
+  margin-bottom: 3rem; }
+  #block-15 .the-form fieldset {
+    border: 1rem solid black !important;
+    padding: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem; }
+    #block-15 .the-form fieldset legend {
+      padding-left: 4rem;
+      padding-right: 4rem;
+      font-size: 4rem;
+      line-height: 4rem;
+      text-align: center;
+      text-transform: uppercase;
+      border: 0;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700; }
+      @media (max-width: 710px) {
+        #block-15 .the-form fieldset legend {
+          font-size: 200%;
+          line-height: 100%; } }
+    #block-15 .the-form fieldset .btn {
+      text-align: center;
+      margin: 0 auto;
+      clear: both;
+      display: block;
+      padding-top: 0;
+      padding-bottom: 4rem;
+      width: 70%;
+      font-size: 250%;
+      color: black;
+      background-color: #dbdb00;
+      border-radius: 30px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700; }
+      @media (max-width: 580px) {
+        #block-15 .the-form fieldset .btn {
+          width: 100%; } }
+      @media (max-width: 420px) {
+        #block-15 .the-form fieldset .btn {
+          font-size: 200%; } }
+      #block-15 .the-form fieldset .btn:hover {
+        background-color: #cccc00; }
 
 /*# sourceMappingURL=style.css.map */

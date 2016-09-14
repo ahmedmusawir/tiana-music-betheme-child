@@ -113,7 +113,7 @@ if( $back_to_top_class == 'hide' ){
 							if( mfn_opts_get('footer-copy') ){
 								echo do_shortcode( mfn_opts_get('footer-copy') );
 							} else {
-								echo '&copy; '. date( 'Y' ) .' '. get_bloginfo( 'name' ) .'. All Rights Reserved. <a target="_blank" rel="nofollow" href="http://www.htmlfivedev.com">HTMLfiveDev.com</a>';
+								echo '&copy; '. date( 'Y' ) .' '. get_bloginfo( 'name' ) .'. All Rights Reserved. <a target="_blank" rel="nofollow" href="http://tianagustafson.com/">TianaGustafson.com</a>';
 							}
 						?>
 					</div>

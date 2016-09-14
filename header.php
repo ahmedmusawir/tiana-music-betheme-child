@@ -63,39 +63,39 @@
 			<header id="Header">
 				
 
-<!--=================================
-=            Moose sTuff            =
-==================================-->
-<section class="header-call-out">
+				<!--=================================
+				=            Moose sTuff            =
+				==================================-->
+				<section class="header-call-out">
 
-	<article class="call-out-content container-fluid">
-		
-		<div class="logo-holder col-md-3 col-sm-12 col-xs-12">
-			<img class="logo img-responsive" src="/wp-content/uploads/2016/05/MarketMyMusicLogo-350.png" alt="">
-		</div>
+					<article class="call-out-content container-fluid">
+						
+						<div class="logo-holder col-md-3 col-sm-12 col-xs-12">
+							<img class="logo img-responsive" src="/wp-content/uploads/2016/05/MarketMyMusicLogo-350.png" alt="">
+						</div>
 
-		<div class="call-out-text col-md-6 col-sm-12 col-xs-12 text-center">
+						<div class="call-out-text col-md-6 col-sm-12 col-xs-12 text-center">
 
-			<h3 id="top-bar-menu">
-				<ul>
+							<h3 id="top-bar-menu">
+								<ul>
+									
+									<li><a rel='m_PageScroll2id' href="#block-2" title=""><i class="fa fa-music" aria-hidden="true"></i> MARKETING YOUR MUSIC</a></li>
+									<li><a rel='m_PageScroll2id' href="#block-3" title=""><i class="fa fa-users" aria-hidden="true"></i> WHY JOIN </a></li>
+									<li><a rel='m_PageScroll2id' href="#block-4" title=""><i class="fa fa-line-chart" aria-hidden="true"></i> YOUR MARKETING PLAN</a></li>
+									<li><a rel='m_PageScroll2id' href="#block-10" title=""><i class="fa fa-pagelines " aria-hidden="true"></i> ABOUT TIANA</a></li>
+								
+								</ul>
+							
+							</h3>
+							
+						</div>
+
+						<div class="call-out-button col-md-3 col-sm-12 col-xs-12">
+							<a rel='m_PageScroll2id' class="btn btn-primary btn-block btn-lg" href="#block-6" title="">ENROLL NOW</a>
+						</div>
+					</article>
 					
-					<li><a rel='m_PageScroll2id' href="#block-2" title=""><i class="fa fa-music" aria-hidden="true"></i> MARKETING YOUR MUSIC</a></li>
-					<li><a rel='m_PageScroll2id' href="#block-3" title=""><i class="fa fa-users" aria-hidden="true"></i> WHY JOIN </a></li>
-					<li><a rel='m_PageScroll2id' href="#block-4" title=""><i class="fa fa-line-chart" aria-hidden="true"></i> YOUR MARKETING PLAN</a></li>
-					<li><a rel='m_PageScroll2id' href="#block-10" title=""><i class="fa fa-pagelines " aria-hidden="true"></i> ABOUT TIANA</a></li>
-				
-				</ul>
-			
-			</h3>
-			
-		</div>
-
-		<div class="call-out-button col-md-3 col-sm-12 col-xs-12">
-			<a rel='m_PageScroll2id' class="btn btn-primary btn-block btn-lg" href="#block-6" title="">ENROLL NOW</a>
-		</div>
-	</article>
-	
-</section> <!-- header-call-out -->
+				</section> <!-- header-call-out -->
 
 			</header>
 
@@ -103,71 +103,64 @@
 		
 		</div>  <!-- id="Header_wrapper" -->
 		
+<!-- THE MODAL CODE -->
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title text-center" id="myModalLabel">BULLSEYE FUNNELS</h4>
+        </div>
+        <div class="modal-body">
 
-<section class="modal-form">
+      <section id="popup-form-click" class="">
 
-	<!-- Button trigger modal -->
-	<!-- <button type="button" class="btn btn-primary btn-lg hide" data-toggle="modal" data-target="#myModal">
-	  Launch demo modal
-	</button> -->
+        <article class="popup-text">
+          
+          <h1>Option 1: One-Time Payment of $997 <br> (Save $194)</h1>
+          <a href="https://rp172.infusionsoft.com/app/manageCart/addProduct?productId=39" title="" target="_blank">
+            <img class="img-responsive center-block" src="/wp-content/uploads/2016/09/buy-now-btn.jpg" alt="">
+          </a>
 
-	<!-- Modal -->
-	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-		  <div class="modal-dialog" role="document">
-			    <div class="modal-content">
-			      <div class="modal-header">
-			        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> -->
-			        <!-- <h4 class="modal-title" id="myModalLabel">ENROLL NOW!</h4> -->
-			        <img class="img-responsive" src="/wp-content/uploads/2016/05/modal-top.jpg" alt="">
-			      </div>
+          <img class="img-responsive" src="/wp-content/uploads/2016/09/star-divider.jpg" alt="">
 
-			      <div class="modal-body clearfix">
+          <h1>Option 2: Three Monthly Payments of $397 <br>
+              ($1191.00 Total)
+          </h1>
+          <a href="https://rp172.infusionsoft.com/app/manageCart/addProduct?productId=39&subscriptionPlanId=13" title="" target="_blank">
+            <img class="img-responsive center-block" src="/wp-content/uploads/2016/09/buy-now-btn.jpg" alt="">
+          </a>
 
-					<article class="col-md-6 col-sm-12 col-xs-12 col-md-push-6 col-lg-push-6">
-						<img class="img-responsive" src="/wp-content/uploads/2016/05/modal-left-img.png" alt="">
-					</article>	
-					
-					<article class="col-md-6 col-sm-12 col-xs-12 col-md-pull-6 col-lg-pull-6">
+          <img class="img-responsive" src="/wp-content/uploads/2016/09/star-divider.jpg" alt="">
 
-						<form id="infusion-form" accept-charset="UTF-8" action="https://rp172.infusionsoft.com/app/form/process/b58c70dd7bb6fe7bb5af3a863c17ec55" class="infusion-form form" method="POST">
-						   <input name="inf_form_xid" type="hidden" value="b58c70dd7bb6fe7bb5af3a863c17ec55" />
-						   <input name="inf_form_name" type="hidden" value="Sign Up For Inspirational Workbook (TG)" />
-						   <input name="infusionsoft_version" type="hidden" value="1.53.0.62" />
-						   <div class="infusion-field">
-						      <label for="inf_field_FirstName">First Name *</label>
-						      <input class="infusion-field-input-container form-control" id="inf_field_FirstName" name="inf_field_FirstName" type="text" />
-						   </div>
-						   <div class="infusion-field">
-						      <label for="inf_field_Email">Valid Email *</label>
-						      <input class="infusion-field-input-container form-control" id="inf_field_Email" name="inf_field_Email" type="text" />
-						   </div>
-						   <div class="infusion-field">
-						      <span class="infusion-option">
-						      <input checked="checked" id="inf_option_SignUpOnMyInspireList" name="inf_option_SignUpOnMyInspireList" type="checkbox" value="223" />
-						      <label for="inf_option_SignUpOnMyInspireList">Sign Up On My Inspire List</label>
-						      </span>
-						   </div>
-						   <div class="infusion-submit">
-						      <input class="btn btn-danger btn-block" type="submit" value="Sign Up!" />
-						   </div>
-						</form>
-						<script type="text/javascript" src="https://rp172.infusionsoft.com/app/webTracking/getTrackingCode?trackingId=6de7b0bc66d40391a6653e39e4657709"></script>
-						
-					</article>	
+          <h1>Option 3: One Payments of $10,000 <br>
+              (V.I.P. Package - Limited to 5 spots)
+          </h1>
+          <a href="https://rp172.infusionsoft.com/app/manageCart/addProduct?productId=41" title="" target="_blank">
+            <img class="img-responsive center-block vip" src="/wp-content/uploads/2016/09/buy-now-btn.jpg" alt="">
+          </a>          
+
+        </article>
+
+       
+        
+      </section>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>          
+  <!-- Modal End -->
 
 
 
-			      </div>
-			      <div class="modal-footer">
-			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-			      </div>
-			    </div> <!-- modal-body -->
-			  </div>
-		</div>
-	</div>
-</section>
-
+   <body>
+         
 		<?php do_action( 'mfn_hook_content_before' ); 
 		
 // <!-- Omit Closing PHP Tags -->

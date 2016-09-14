@@ -3,7 +3,7 @@ Theme Name: 	Tiana Music Theme
 Theme URI: 		http://www.htmlfivedev.com
 Author: 		Ahmed Rahat Musawir
 Author URI: 	http://www.htmlfivedev.com
-Description:	A Custom Theme for Shy Miah London (Owner: Cheryl Shaw)
+Description:	A Custom Theme for TianaGustafson.com
 Template:		betheme
 Version: 		1.6
 */
@@ -67,15 +67,35 @@ body {
 #myModal {
 	// border: 1rem solid red;
 	// #25aea6
+	h1 {
+		color: $tiana-teal !important;
+		font-weight: 600;
+	}
 	.modal-header {
-		padding: 0 !important;
+		// padding: 0 !important;
+		padding-top: 3rem;
 		border-bottom: 0;
+		h4 {
+			color: $tiana-teal !important;
+			font-weight: 500;
+		}
 	}
 	.modal-content {
-	   
-	   @include linear-gradient( to bottom, rgba( #25aea6, 1 ), rgba( white, 1 )  ) ;
-
+	   text-align: center;
+	   // @include linear-gradient( to bottom, rgba( #25aea6, 1 ), rgba( white, 1 )  ) ;
+		.modal-body {
+			a {
+				img {
+					width: 60%;
+				}
+			}
+		}
 	}
+
+	.modal-footer {
+		text-align: center;
+	}
+
 	#infusion-form {
 		.infusion-field {
 			width: 100% !important;
@@ -216,6 +236,7 @@ body {
 
 	@media ( max-width: 991px ) {
 		margin-top: -10rem;
+		background: url('/wp-content/uploads/2016/05/header-bg.jpg') !important;
 	}				
 
 	@media ( min-width: 1300px ) {
@@ -258,6 +279,81 @@ body {
 		}
 	}
 
+}
+
+#block-2-mobile {
+
+	padding-top: 3rem !important;
+	padding-bottom: 3rem !important;
+
+	h3 {
+		font-size: 2.5rem;
+		color: black;
+		line-height: 2.5rem;
+	}
+	h4 {
+		font-size: 2rem;
+		color: black;
+		line-height: 2.5rem;
+	}
+}
+
+#block-3 {
+
+	@media ( max-width: 850px ) {
+		// margin-top: -10rem;
+		background: url('/wp-content/uploads/2015/04/block-3-bg.jpg') !important;
+	}			
+}
+
+#block-3-mobile {
+	.content {
+		background: rgba( black, .7 );
+		padding: 1rem;
+
+		h1 {
+			font-size: 3rem;
+			line-height: 3rem;
+		}
+
+		h2 {
+			font-size: 2.5rem;
+			line-height: 2.5rem;
+		}
+		h4 {
+			font-size: 1.8rem;
+			line-height: 1.8rem;
+		}
+	}
+}
+
+#vip {
+
+	.special {
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+		// border: 1rem solid red;
+		h1 {
+			text-align: center;
+			color: $tiana-teal;
+			font-size: 4.5rem;
+			line-height: 4.5rem;
+
+			small {
+				color: lighten( gray, 10% );
+				font-size: 2rem;
+			}
+		}
+
+		ul {
+			padding-top: 3rem;
+			li {
+				list-style: none;
+				color: $tiana-teal;
+				font-size: 2.2rem;
+			}
+		}
+	}
 }
 
 #block-4 {
@@ -327,7 +423,9 @@ body {
 					padding-left: 4rem;
 					padding-right: 4rem;
 					font-size: 4rem;
+					line-height: 4rem;
 					text-align: center;
+					text-transform: uppercase;
 					border: 0;
 					font-family: 'Open Sans', sans-serif;
 					font-weight: 700;
@@ -433,6 +531,15 @@ body {
 
 	padding: 0 !important;
 
+	.video-block {
+		h2 {
+			font-weight: 600;
+		}
+		h4 {
+			font-weight: 600;
+		}
+	}
+
 	.section_wrapper {
 		max-width: 100% !important;
 		padding: 0 !important;
@@ -524,25 +631,92 @@ body {
 	}
 }
 
+#block-15 {
+
+	.the-form {
+
+			margin-top: 5rem;
+			margin-bottom: 3rem;
+
+			fieldset {
+				border: 1rem solid black !important;
+				// padding: 0.35em 0.625em 0.75em !important;
+				padding: 5rem;
+				padding-left: 2rem;
+				padding-right: 2rem;
 
 
-#block-14 {
+				legend {
+					// width: 25%;
+					padding-left: 4rem;
+					padding-right: 4rem;
+					font-size: 4rem;
+					line-height: 4rem;
+					text-align: center;
+					text-transform: uppercase;
+					border: 0;
+					font-family: 'Open Sans', sans-serif;
+					font-weight: 700;
+					@media ( max-width: 710px ) {
 
-	padding: 0 !important;
+						font-size: 200%;
+						line-height: 100%;
+					}
 
-	.section_wrapper {
-		max-width: 100% !important;
-		padding: 0 !important;
-		margin: 0 !important;
-		.column.mcb-column.one.column_image {
-			margin-right: 0px !important;
+				}
 
-			.image_wrapper {
+				.btn {
+					text-align: center;
+					margin: 0 auto;
+					clear: both;
+					display: block;
+					padding-top: 0;
+					padding-bottom: 4rem;
+					width: 70%;
+					font-size: 250%;
+					// font-size: 7rem;
+					color: black;
+					background-color: darken( yellow, 7% );
+					border-radius: 30px;
+					font-family: 'Open Sans', sans-serif;
+					font-weight: 700;
+
+					@media ( max-width: 580px ) {
+
+						width: 100%;
+					}
+					@media ( max-width: 420px ) {
+
+						font-size: 200%;
+					}
+					&:hover {
+						background-color: darken( yellow, 10% );
+
+					}
+
+				}
 
 			}
 		}
-	}
 }
+
+// #block-14 {
+
+// 	padding: 0 !important;
+
+// 	.section_wrapper {
+// 		max-width: 100% !important;
+// 		padding: 0 !important;
+// 		margin: 0 !important;
+// 		.column.mcb-column.one.column_image {
+// 			margin-right: 0px !important;
+
+// 			.image_wrapper {
+
+// 			}
+// 		}
+// 	}
+// }
 
 
 
